@@ -1,4 +1,4 @@
-package com.gyw.secondkill;
+package com.gyw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
