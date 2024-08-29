@@ -1,7 +1,7 @@
 package com.gyw.secondkill.vo;
 
 
-import com.action.miaosha.Validator.IsMobile;
+import com.gyw.secondkill.Validator.IsMobile;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;

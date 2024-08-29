@@ -1,6 +1,6 @@
 package com.gyw.secondkill.exception;
 
-import com.action.miaosha.result.CodeMsg;
+import com.gyw.secondkill.result.CodeMsg;
 
 /**
  * @author Dell

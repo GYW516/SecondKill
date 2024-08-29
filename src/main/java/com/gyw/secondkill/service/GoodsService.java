@@ -1,9 +1,9 @@
 package com.gyw.secondkill.service;
 
-import com.action.miaosha.dao.GoodsDao;
-import com.action.miaosha.domain.Goods;
-import com.action.miaosha.domain.MiaoshaGoods;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.dao.GoodsDao;
+import com.gyw.secondkill.domain.Goods;
+import com.gyw.secondkill.domain.MiaoshaGoods;
+import com.gyw.secondkill.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

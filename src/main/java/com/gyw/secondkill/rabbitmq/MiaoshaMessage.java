@@ -1,6 +1,6 @@
 package com.gyw.secondkill.rabbitmq;
 
-import com.action.miaosha.domain.MiaoshaUser;
+import com.gyw.secondkill.domain.MiaoshaUser;
 
 /**
  * @author Dell

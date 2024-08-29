@@ -1,7 +1,7 @@
 package com.gyw.secondkill.exception;
 
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
 import org.springframework.validation.BindException;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.ControllerAdvice;

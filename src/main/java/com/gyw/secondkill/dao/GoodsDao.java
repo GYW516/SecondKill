@@ -1,8 +1,8 @@
 package com.gyw.secondkill.dao;
 
-import com.action.miaosha.domain.Goods;
-import com.action.miaosha.domain.MiaoshaGoods;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.domain.Goods;
+import com.gyw.secondkill.domain.MiaoshaGoods;
+import com.gyw.secondkill.vo.GoodsVo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

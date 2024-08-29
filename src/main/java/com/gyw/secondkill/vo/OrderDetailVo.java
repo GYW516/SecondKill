@@ -1,6 +1,6 @@
 package com.gyw.secondkill.vo;
 
-import com.action.miaosha.domain.OrderInfo;
+import com.gyw.secondkill.domain.OrderInfo;
 
 /**
  * @author Dell

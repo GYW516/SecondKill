@@ -1,13 +1,13 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.redis.GoodsKey;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.GoodsService;
-import com.action.miaosha.service.MiaoshaUserService;
-import com.action.miaosha.vo.GoodsDetailVo;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.redis.GoodsKey;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.GoodsService;
+import com.gyw.secondkill.service.MiaoshaUserService;
+import com.gyw.secondkill.vo.GoodsDetailVo;
+import com.gyw.secondkill.vo.GoodsVo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -24,10 +24,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-/**
- * @author Dell
- * @create 2019-07-19 23:00
- */
 @Controller
 @RequestMapping("/goods")
 public class GoodsController {

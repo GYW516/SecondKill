@@ -1,6 +1,6 @@
 package com.gyw.secondkill.dao;
 
-import com.action.miaosha.domain.MiaoshaUser;
+import com.gyw.secondkill.domain.MiaoshaUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

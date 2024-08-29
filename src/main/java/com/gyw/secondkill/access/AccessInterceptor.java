@@ -1,12 +1,12 @@
 package com.gyw.secondkill.access;
 
 import com.gyw.secondkill.domain.MiaoshaUser;
-import com.action.miaosha.redis.AccessKey;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.MiaoshaUserService;
-import com.action.miaosha.service.UserService;
+import com.gyw.secondkill.redis.AccessKey;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.MiaoshaUserService;
+import com.gyw.secondkill.service.UserService;
 import com.alibaba.fastjson.JSON;
 import com.gyw.secondkill.domain.MiaoshaUser;
 import org.apache.commons.lang3.StringUtils;
@@ -22,10 +22,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.OutputStream;
 
-/**
- * @author Dell
- * @create 2019-07-29 13:13
- */
 @Service
 public class AccessInterceptor extends HandlerInterceptorAdapter {
 

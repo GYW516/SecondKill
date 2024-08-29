@@ -1,14 +1,15 @@
 package com.gyw.secondkill.rabbitmq;
 
-import com.action.miaosha.domain.MiaoshaOrder;
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.GoodsService;
-import com.action.miaosha.service.MiaoshaService;
-import com.action.miaosha.service.OrderService;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.domain.MiaoshaOrder;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.GoodsService;
+import com.gyw.secondkill.service.MiaoshaService;
+import com.gyw.secondkill.service.OrderService;
+import com.gyw.secondkill.vo.GoodsVo;
+import com.gyw.secondkill.domain.MiaoshaOrder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

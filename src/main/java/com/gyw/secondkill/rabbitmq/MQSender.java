@@ -1,6 +1,6 @@
 package com.gyw.secondkill.rabbitmq;
 
-import com.action.miaosha.redis.RedisService;
+import com.gyw.secondkill.redis.RedisService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.AmqpTemplate;

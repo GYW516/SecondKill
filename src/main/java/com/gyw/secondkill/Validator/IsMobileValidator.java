@@ -1,6 +1,6 @@
 package com.gyw.secondkill.Validator;
 
-import com.action.miaosha.util.ValidatorUtil;
+import com.gyw.secondkill.util.ValidatorUtil;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.validation.ConstraintValidator;

@@ -1,12 +1,12 @@
 package com.gyw.secondkill.service;
 
-import com.action.miaosha.dao.OrderDao;
-import com.action.miaosha.domain.MiaoshaOrder;
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.domain.OrderInfo;
-import com.action.miaosha.redis.OrderKey;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.dao.OrderDao;
+import com.gyw.secondkill.domain.MiaoshaOrder;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.domain.OrderInfo;
+import com.gyw.secondkill.redis.OrderKey;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

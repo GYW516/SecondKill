@@ -1,6 +1,6 @@
 package com.gyw.secondkill.dao;
 
-import com.action.miaosha.domain.User;
+import com.gyw.secondkill.domain.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

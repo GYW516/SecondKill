@@ -1,9 +1,10 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.MiaoshaUserService;
-import com.action.miaosha.vo.LoginVo;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.MiaoshaUserService;
+import com.gyw.secondkill.vo.LoginVo;
+import com.gyw.secondkill.redis.RedisService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

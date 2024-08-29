@@ -1,8 +1,8 @@
 package com.gyw.secondkill.config;
 
-import com.action.miaosha.access.UserContext;
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.service.MiaoshaUserService;
+import com.gyw.secondkill.access.UserContext;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.service.MiaoshaUserService;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

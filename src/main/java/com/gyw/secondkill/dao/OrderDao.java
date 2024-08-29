@@ -1,7 +1,7 @@
 package com.gyw.secondkill.dao;
 
-import com.action.miaosha.domain.MiaoshaOrder;
-import com.action.miaosha.domain.OrderInfo;
+import com.gyw.secondkill.domain.MiaoshaOrder;
+import com.gyw.secondkill.domain.OrderInfo;
 import org.apache.ibatis.annotations.*;
 
 /**

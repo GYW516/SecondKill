@@ -1,15 +1,15 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.domain.OrderInfo;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.GoodsService;
-import com.action.miaosha.service.MiaoshaUserService;
-import com.action.miaosha.service.OrderService;
-import com.action.miaosha.vo.GoodsVo;
-import com.action.miaosha.vo.OrderDetailVo;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.domain.OrderInfo;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.GoodsService;
+import com.gyw.secondkill.service.MiaoshaUserService;
+import com.gyw.secondkill.service.OrderService;
+import com.gyw.secondkill.vo.GoodsVo;
+import com.gyw.secondkill.vo.OrderDetailVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

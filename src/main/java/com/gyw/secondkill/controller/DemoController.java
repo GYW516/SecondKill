@@ -1,17 +1,13 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * @author Dell
- * @create 2019-07-14 13:44
- */
 @Controller
 @EnableAutoConfiguration
 public class DemoController {

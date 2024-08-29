@@ -1,9 +1,9 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.MiaoshaUserService;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.MiaoshaUserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

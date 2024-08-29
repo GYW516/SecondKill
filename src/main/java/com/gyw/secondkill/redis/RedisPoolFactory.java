@@ -1,6 +1,6 @@
 package com.gyw.secondkill.redis;
 
-import com.action.miaosha.redis.RedisConfig;
+import com.gyw.secondkill.redis.RedisConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;

@@ -1,9 +1,9 @@
 package com.gyw.secondkill.service;
 
-import com.action.miaosha.dao.UserDao;
-import com.action.miaosha.domain.User;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.vo.LoginVo;
+import com.gyw.secondkill.dao.UserDao;
+import com.gyw.secondkill.domain.User;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.vo.LoginVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

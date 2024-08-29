@@ -1,14 +1,14 @@
 package com.gyw.secondkill.service;
 
-import com.action.miaosha.dao.MiaoshaUserDao;
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.exception.GlobalException;
-import com.action.miaosha.redis.MiaoshaUserKey;
-import com.action.miaosha.redis.RedisService;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.util.MD5Util;
-import com.action.miaosha.util.UUIDUtil;
-import com.action.miaosha.vo.LoginVo;
+import com.gyw.secondkill.dao.MiaoshaUserDao;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.exception.GlobalException;
+import com.gyw.secondkill.redis.MiaoshaUserKey;
+import com.gyw.secondkill.redis.RedisService;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.util.MD5Util;
+import com.gyw.secondkill.util.UUIDUtil;
+import com.gyw.secondkill.vo.LoginVo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

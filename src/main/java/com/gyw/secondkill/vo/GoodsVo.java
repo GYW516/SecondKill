@@ -1,6 +1,6 @@
 package com.gyw.secondkill.vo;
 
-import com.action.miaosha.domain.Goods;
+import com.gyw.secondkill.domain.Goods;
 
 import java.util.Date;
 

@@ -1,7 +1,7 @@
 package com.gyw.secondkill.config;
 
-import com.action.miaosha.access.AccessInterceptor;
-import com.action.miaosha.redis.AccessKey;
+import com.gyw.secondkill.access.AccessInterceptor;
+import com.gyw.secondkill.redis.AccessKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

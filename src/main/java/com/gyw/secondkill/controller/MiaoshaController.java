@@ -1,19 +1,19 @@
 package com.gyw.secondkill.controller;
 
-import com.action.miaosha.access.AccessLimit;
-import com.action.miaosha.domain.MiaoshaOrder;
-import com.action.miaosha.domain.MiaoshaUser;
-import com.action.miaosha.domain.OrderInfo;
-import com.action.miaosha.rabbitmq.MQSender;
-import com.action.miaosha.rabbitmq.MiaoshaMessage;
-import com.action.miaosha.redis.*;
-import com.action.miaosha.result.CodeMsg;
-import com.action.miaosha.result.Result;
-import com.action.miaosha.service.GoodsService;
-import com.action.miaosha.service.MiaoshaService;
-import com.action.miaosha.service.MiaoshaUserService;
-import com.action.miaosha.service.OrderService;
-import com.action.miaosha.vo.GoodsVo;
+import com.gyw.secondkill.access.AccessLimit;
+import com.gyw.secondkill.domain.MiaoshaOrder;
+import com.gyw.secondkill.domain.MiaoshaUser;
+import com.gyw.secondkill.domain.OrderInfo;
+import com.gyw.secondkill.rabbitmq.MQSender;
+import com.gyw.secondkill.rabbitmq.MiaoshaMessage;
+import com.gyw.secondkill.redis.*;
+import com.gyw.secondkill.result.CodeMsg;
+import com.gyw.secondkill.result.Result;
+import com.gyw.secondkill.service.GoodsService;
+import com.gyw.secondkill.service.MiaoshaService;
+import com.gyw.secondkill.service.MiaoshaUserService;
+import com.gyw.secondkill.service.OrderService;
+import com.gyw.secondkill.vo.GoodsVo;
 
 import org.apache.ibatis.annotations.Update;
 import org.springframework.beans.factory.InitializingBean;
